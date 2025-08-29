@@ -1,0 +1,67 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  padding: 1rem;
+  box-sizing: border-box;
+}
+
+.quote-card {
+  width: 100%;
+  max-width: 550px;
+  padding: 2.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin: 0 0 1rem 0;
+}
+
+.quote-content-wrapper {
+  min-height: 150px; /* İçerik değişirken kartın boyutunun oynamaması için */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-left: 4px solid #3498db;
+  padding-left: 1.5rem;
+  margin: 1rem 0;
+}
+
+.pi-quote-left {
+  font-size: 1.5rem;
+  color: #3498db;
+  margin-bottom: 1rem;
+}
+
+blockquote {
+  margin: 0;
+  font-size: 1.25rem;
+  font-style: italic;
+  color: #555;
+  line-height: 1.6;
+}
+
+cite {
+  display: block;
+  margin-top: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}

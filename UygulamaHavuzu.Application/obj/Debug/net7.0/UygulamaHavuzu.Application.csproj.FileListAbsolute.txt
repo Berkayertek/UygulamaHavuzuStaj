@@ -1,0 +1,15 @@
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\bin\Debug\net7.0\UygulamaHavuzu.Application.deps.json
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\bin\Debug\net7.0\UygulamaHavuzu.Application.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\bin\Debug\net7.0\UygulamaHavuzu.Application.pdb
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\bin\Debug\net7.0\UygulamaHavuzu.Domain.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\bin\Debug\net7.0\UygulamaHavuzu.Domain.pdb
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\UygulamaHavuzu.Application.csproj.AssemblyReference.cache
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\UygulamaHavuzu.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\UygulamaHavuzu.Application.AssemblyInfoInputs.cache
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\UygulamaHavuzu.Application.AssemblyInfo.cs
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\UygulamaHavuzu.Application.csproj.CoreCompileInputs.cache
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\UygulamaHavuzu.Application.csproj.CopyComplete
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\UygulamaHavuzu.Application.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\refint\UygulamaHavuzu.Application.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\UygulamaHavuzu.Application.pdb
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Application\obj\Debug\net7.0\ref\UygulamaHavuzu.Application.dll

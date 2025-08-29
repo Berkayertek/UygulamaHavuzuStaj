@@ -1,0 +1,43 @@
+<div class="login-container">
+  <div class="login-card">
+    <h2>Giriş Yap</h2>
+    <form (ngSubmit)="onLogin()">
+      <div class="p-field">
+        <label for="username">Kullanıcı Adı</label>
+        <input
+          id="username"
+          type="text"
+          pInputText
+          [(ngModel)]="loginData.username"
+          name="username"
+          required
+        />
+      </div>
+      <div class="p-field">
+        <label for="password">Şifre</label>
+        <input
+          id="password"
+          type="password"
+          pInputText
+          [(ngModel)]="loginData.password"
+          name="password"
+          required
+        />
+      </div>
+
+      <div *ngIf="errorMessage" class="error-message">
+        {{ errorMessage }}
+      </div>
+
+      <button
+        pButton
+        type="submit"
+        label="Giriş Yap"
+        class="p-button-primary"
+      ></button>
+    </form>
+    <div class="register-link">
+      <span>Hesabın yok mu? <a routerLink="/register">Kayıt Ol</a></span>
+    </div>
+  </div>
+</div>

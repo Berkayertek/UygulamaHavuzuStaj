@@ -1,0 +1,115 @@
+/* :host, component'in kendisine stil vermemizi sağlar */
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  padding: 1rem;
+}
+
+/* Ana hesaplayıcı kartı */
+.vki-card {
+  width: 100%;
+  max-width: 450px;
+  padding: 2rem 2.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #777;
+  margin-bottom: 2rem;
+}
+
+/* Input alanlarını gruplayan ana kapsayıcı */
+.input-group {
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+/* Her bir form elemanını (label + input) ayrı ayrı ele alıyoruz */
+.p-float-label {
+  display: flex;
+  flex-direction: column-reverse; /* Etiketi input'un üzerine taşır */
+  gap: 0.5rem; /* Etiket ile input arasına boşluk koyar */
+  margin-bottom: 1.5rem;
+}
+
+/* Etiket stilleri */
+.p-float-label label {
+  font-size: 0.9rem;
+  color: #555;
+  transition: none;
+  pointer-events: auto;
+}
+
+/* --- YENİ VE KESİN ÇÖZÜM BURADA --- */
+
+/* p-inputNumber bileşeninin kapsayıcısının tam genişlikte olmasını sağlar */
+:host ::ng-deep .p-inputnumber {
+  width: 100%;
+}
+
+/* p-inputNumber bileşeninin içindeki asıl input'u hedefler */
+:host ::ng-deep .p-inputnumber-input {
+  width: 100% !important; /* PrimeNG'nin kendi stilini ezmek için !important kullanıyoruz */
+  box-sizing: border-box; /* Genişlik hesaplamasını butonla aynı yapar */
+}
+
+/* --- DEĞİŞİKLİKLERİN SONU --- */
+
+/* Input'a tıklandığında etiketin yukarı çıkmasını sağlayan tüm kuralları kaldırıyoruz. */
+.p-float-label .p-inputnumber-input:focus ~ label,
+.p-float-label .p-inputnumber-input.p-filled ~ label {
+  /* Boş bırakıldı */
+}
+
+button[pButton] {
+  width: 100%;
+  padding: 0.75rem;
+  font-size: 1rem;
+  box-sizing: border-box; /* Butonun da kutu modelini garantiye alalım */
+}
+
+/* Sonucun gösterildiği panel */
+.sonuc-panel {
+  margin-top: 2rem;
+  padding: 1.5rem;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 0.3s ease;
+}
+
+.sonuc-deger {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.sonuc-metni {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+/* Sonuca göre renkler */
+.zayif {
+  background-color: #3498db;
+}
+.normal {
+  background-color: #2ecc71;
+}
+.fazla-kilolu {
+  background-color: #f1c40f;
+}
+.obez {
+  background-color: #e74c3c;
+}

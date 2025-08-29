@@ -1,0 +1,350 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Test\\UygulamaHavuzu.Test.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.API\\UygulamaHavuzu.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.API\\UygulamaHavuzu.API.csproj",
+        "projectName": "UygulamaHavuzu.API",
+        "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.API\\UygulamaHavuzu.API.csproj",
+        "packagesPath": "C:\\Users\\hamit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hamit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Application\\UygulamaHavuzu.Application.csproj": {
+                "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Application\\UygulamaHavuzu.Application.csproj"
+              },
+              "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Infrastructure\\UygulamaHavuzu.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Infrastructure\\UygulamaHavuzu.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Application\\UygulamaHavuzu.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Application\\UygulamaHavuzu.Application.csproj",
+        "projectName": "UygulamaHavuzu.Application",
+        "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Application\\UygulamaHavuzu.Application.csproj",
+        "packagesPath": "C:\\Users\\hamit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hamit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Domain\\UygulamaHavuzu.Domain.csproj": {
+                "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Domain\\UygulamaHavuzu.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Domain\\UygulamaHavuzu.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Domain\\UygulamaHavuzu.Domain.csproj",
+        "projectName": "UygulamaHavuzu.Domain",
+        "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Domain\\UygulamaHavuzu.Domain.csproj",
+        "packagesPath": "C:\\Users\\hamit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Domain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hamit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Infrastructure\\UygulamaHavuzu.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Infrastructure\\UygulamaHavuzu.Infrastructure.csproj",
+        "projectName": "UygulamaHavuzu.Infrastructure",
+        "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Infrastructure\\UygulamaHavuzu.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\hamit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hamit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Application\\UygulamaHavuzu.Application.csproj": {
+                "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Application\\UygulamaHavuzu.Application.csproj"
+              },
+              "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Domain\\UygulamaHavuzu.Domain.csproj": {
+                "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Domain\\UygulamaHavuzu.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.14, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Test\\UygulamaHavuzu.Test.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Test\\UygulamaHavuzu.Test.csproj",
+        "projectName": "UygulamaHavuzu.Test",
+        "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Test\\UygulamaHavuzu.Test.csproj",
+        "packagesPath": "C:\\Users\\hamit\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.Test\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\hamit\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {
+              "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.API\\UygulamaHavuzu.API.csproj": {
+                "projectPath": "C:\\Users\\hamit\\Desktop\\Uygulama Havuzu\\UygulamaHavuzu.API\\UygulamaHavuzu.API.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.7.1, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.0, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.2, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.410\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

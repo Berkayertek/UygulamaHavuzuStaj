@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v7.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v7.0": {
+      "UygulamaHavuzu.Application/1.0.0": {
+        "dependencies": {
+          "UygulamaHavuzu.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UygulamaHavuzu.Application.dll": {}
+        }
+      },
+      "UygulamaHavuzu.Domain/1.0.0": {
+        "runtime": {
+          "UygulamaHavuzu.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UygulamaHavuzu.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UygulamaHavuzu.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

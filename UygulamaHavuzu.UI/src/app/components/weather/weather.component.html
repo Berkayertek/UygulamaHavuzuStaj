@@ -1,0 +1,106 @@
+<a
+  routerLink="/anasayfa"
+  pButton
+  class="p-button-text p-button-secondary back-to-home-button"
+  icon="pi pi-arrow-left"
+></a>
+
+<div class="weather-page-container">
+  <div class="search-and-result-panel">
+    <div class="search-card">
+      <h3>Şehir Ara</h3>
+      <div class="p-inputgroup">
+        <input
+          type="text"
+          pInputText
+          [(ngModel)]="sehir"
+          placeholder="Şehir adı giriniz..."
+          (keyup.enter)="aramaYap()"
+        />
+        <button
+          pButton
+          type="button"
+          icon="pi pi-search"
+          (click)="aramaYap()"
+        ></button>
+      </div>
+    </div>
+
+    <div *ngIf="hata" class="error-message">
+      {{ hata }}
+    </div>
+
+    <div *ngIf="havaDurumu" class="weather-card main-weather-card">
+      <h4>{{ havaDurumu.name }}, {{ havaDurumu.sys.country }}</h4>
+      <div class="weather-main">
+        <img
+          [src]="
+            'https://openweathermap.org/img/wn/' +
+            havaDurumu.weather[0].icon +
+            '@2x.png'
+          "
+          alt="weather icon"
+        />
+        <span class="temperature"
+          >{{ havaDurumu.main.temp | number : "1.0-0" }}°C</span
+        >
+      </div>
+      <p class="weather-description">{{ havaDurumu.weather[0].description }}</p>
+      <div class="weather-details">
+        <span
+          ><i class="pi pi-flag-fill"></i> Hissedilen:
+          {{ havaDurumu.main.feels_like | number : "1.0-0" }}°C</span
+        >
+        <span
+          ><i class="pi pi-tint"></i> Nem: %{{ havaDurumu.main.humidity }}</span
+        >
+        <span
+          ><i class="pi pi-wind"></i> Rüzgar:
+          {{ havaDurumu.wind.speed }} m/s</span
+        >
+        <span
+          ><i class="pi pi-sunrise"></i> G.Doğumu:
+          {{ havaDurumu.sunriseFormatted }}</span
+        >
+        <span
+          ><i class="pi pi-sunset"></i> G.Batımı:
+          {{ havaDurumu.sunsetFormatted }}</span
+        >
+      </div>
+    </div>
+  </div>
+
+  <div class="popular-cities-grid">
+    <div
+      *ngFor="let cityWeather of populerSehirler"
+      class="weather-card popular-city-card"
+    >
+      <h5>{{ cityWeather.name }}, {{ cityWeather.sys.country }}</h5>
+      <div class="weather-main-small">
+        <img
+          [src]="
+            'https://openweathermap.org/img/wn/' +
+            cityWeather.weather[0].icon +
+            '@2x.png'
+          "
+          alt="weather icon"
+        />
+        <span class="temperature-small"
+          >{{ cityWeather.main.temp | number : "1.0-0" }}°C</span
+        >
+      </div>
+      <p class="weather-description-small">
+        {{ cityWeather.weather[0].description }}
+      </p>
+      <div class="weather-details-small">
+        <span
+          ><i class="pi pi-sunrise"></i>
+          {{ cityWeather.sunriseFormatted }}</span
+        >
+        <span
+          ><i class="pi pi-sunset"></i> {{ cityWeather.sunsetFormatted }}</span
+        >
+      </div>
+    </div>
+  </div>
+</div>

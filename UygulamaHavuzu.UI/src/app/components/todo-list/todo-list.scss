@@ -1,0 +1,76 @@
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Kartın yukarıdan başlaması için */
+  min-height: 100vh;
+  background: linear-gradient(135deg, #1d2b64, #f8cdda);
+  padding: 2rem;
+  box-sizing: border-box; /* Padding'in boyutları etkilememesi için */
+}
+
+.todo-card {
+  width: 100%;
+  max-width: 600px;
+  padding: 2rem 2.5rem;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+.p-inputgroup {
+  margin-bottom: 1.5rem;
+}
+
+.todo-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.todo-list li {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0.5rem;
+  border-bottom: 1px solid #e0e0e0;
+  transition: background-color 0.2s ease;
+
+  &:last-child {
+    border-bottom: none;
+  }
+
+  &:hover {
+    background-color: #f7f7f7;
+  }
+}
+
+.todo-title {
+  flex-grow: 1;
+  margin: 0 1rem;
+}
+
+li.completed .todo-title {
+  text-decoration: line-through;
+  color: #aaa;
+}
+
+.empty-message {
+  text-align: center;
+  color: #888;
+  padding: 2rem 0;
+}
+
+/* Silme butonunu daha az dikkat çekici yapalım */
+.p-button-text.p-button-danger {
+  color: #adb5bd;
+  &:hover {
+    background-color: rgba(231, 76, 60, 0.1) !important;
+    color: #e74c3c !important;
+  }
+}

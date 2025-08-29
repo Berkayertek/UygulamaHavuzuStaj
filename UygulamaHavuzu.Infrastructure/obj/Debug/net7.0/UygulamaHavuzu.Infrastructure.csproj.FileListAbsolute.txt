@@ -1,0 +1,17 @@
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\bin\Debug\net7.0\UygulamaHavuzu.Infrastructure.deps.json
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\bin\Debug\net7.0\UygulamaHavuzu.Infrastructure.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\bin\Debug\net7.0\UygulamaHavuzu.Infrastructure.pdb
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\bin\Debug\net7.0\UygulamaHavuzu.Application.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\bin\Debug\net7.0\UygulamaHavuzu.Domain.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\bin\Debug\net7.0\UygulamaHavuzu.Domain.pdb
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\bin\Debug\net7.0\UygulamaHavuzu.Application.pdb
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\UygulamaHavuzu.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\UygulamaHavuzu.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\UygulamaHavuzu.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\UygulamaHavuzu.Infrastructure.AssemblyInfo.cs
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\UygulamaHavuzu.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\UygulamaHavuzu.Infrastructure.csproj.CopyComplete
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\UygulamaHavuzu.Infrastructure.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\refint\UygulamaHavuzu.Infrastructure.dll
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\UygulamaHavuzu.Infrastructure.pdb
+C:\Users\hamit\Desktop\Uygulama Havuzu\UygulamaHavuzu.Infrastructure\obj\Debug\net7.0\ref\UygulamaHavuzu.Infrastructure.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\UygulamaHavuzu.API.props" />
+</Project>

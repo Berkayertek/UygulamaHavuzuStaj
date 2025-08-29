@@ -1,0 +1,50 @@
+<a
+  routerLink="/anasayfa"
+  pButton
+  class="p-button-text p-button-secondary back-to-home-button"
+  icon="pi pi-arrow-left"
+></a>
+
+<div class="vki-page-container">
+  <div class="vki-card">
+    <h2>Vücut Kitle Endeksi</h2>
+    <p class="subtitle">
+      Boy ve kilo değerlerinizi girerek sonucunuzu öğrenin.
+    </p>
+
+    <div class="input-group">
+      <span class="p-float-label">
+        <p-inputNumber
+          inputId="boy"
+          [(ngModel)]="boy"
+          mode="decimal"
+          [minFractionDigits]="2"
+          [maxFractionDigits]="2"
+        ></p-inputNumber>
+        <label for="boy">Boy (metre, örn: 1.75)</label>
+      </span>
+      <span class="p-float-label">
+        <p-inputNumber
+          inputId="kilo"
+          [(ngModel)]="kilo"
+          mode="decimal"
+        ></p-inputNumber>
+        <label for="kilo">Kilo (kg, örn: 75)</label>
+      </span>
+    </div>
+
+    <button
+      pButton
+      type="button"
+      label="Hesapla"
+      icon="pi pi-calculator"
+      (click)="hesapla()"
+    ></button>
+
+    <!-- Sonuç Alanı -->
+    <div *ngIf="sonuc" class="sonuc-panel" [ngClass]="getSonucClass()">
+      <div class="sonuc-deger">{{ sonuc.vki }}</div>
+      <div class="sonuc-metni">{{ sonuc.sonucMetni }}</div>
+    </div>
+  </div>
+</div>

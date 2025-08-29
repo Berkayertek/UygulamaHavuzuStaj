@@ -1,0 +1,52 @@
+<a
+  routerLink="/anasayfa"
+  pButton
+  class="p-button-text p-button-secondary back-to-home-button"
+  icon="pi pi-arrow-left"
+></a>
+
+<div class="todo-page-container">
+  <div class="todo-card">
+    <h2>Yapılacaklar Listesi</h2>
+
+    <div class="p-inputgroup">
+      <input
+        type="text"
+        pInputText
+        [(ngModel)]="newTodoTitle"
+        placeholder="Yeni bir görev ekle..."
+        (keyup.enter)="addTodo()"
+      />
+      <button
+        pButton
+        type="button"
+        icon="pi pi-plus"
+        (click)="addTodo()"
+      ></button>
+    </div>
+
+    <ul class="todo-list">
+      <li *ngFor="let todo of todos" [class.completed]="todo.isCompleted">
+        <p-checkbox
+          [binary]="true"
+          [(ngModel)]="todo.isCompleted"
+          (ngModelChange)="toggleComplete(todo)"
+        ></p-checkbox>
+
+        <span class="todo-title">{{ todo.title }}</span>
+
+        <button
+          pButton
+          type="button"
+          icon="pi pi-trash"
+          class="p-button-danger p-button-rounded p-button-text"
+          (click)="deleteTodo(todo.id)"
+        ></button>
+      </li>
+    </ul>
+
+    <p *ngIf="!todos || todos.length === 0" class="empty-message">
+      Henüz bir görev eklemediniz.
+    </p>
+  </div>
+</div>

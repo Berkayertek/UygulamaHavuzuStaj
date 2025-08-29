@@ -1,0 +1,27 @@
+<div class="container">
+  <header>
+    <h1>Uygulama Havuzu</h1>
+    <p>Sakarya Büyükşehir Belediyesi Staj Projesi</p>
+    <button
+      pButton
+      type="button"
+      label="Çıkış Yap"
+      class="p-button-danger"
+      (click)="logout()"
+    ></button>
+  </header>
+
+  <main class="app-grid">
+    <a
+      *ngFor="let app of apps"
+      [routerLink]="app.route"
+      class="app-card"
+      [ngClass]="app.cssClass"
+    >
+      <div class="card-content">
+        <h2>{{ app.title }}</h2>
+        <p>{{ app.description }}</p>
+      </div>
+    </a>
+  </main>
+</div>

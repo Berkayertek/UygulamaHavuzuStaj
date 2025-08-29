@@ -1,0 +1,11 @@
+/* Tarayıcının varsayılan dış boşluğunu kaldırarak kenarlardaki beyazlığı gideriyoruz */
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif; // Proje geneli için bir font belirleyelim
+}
+/* Tüm uygulama sayfalarındaki "Ana Sayfaya Dön" butonu için genel stil */
+.back-to-home-button {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}

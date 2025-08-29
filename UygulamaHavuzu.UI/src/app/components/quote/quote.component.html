@@ -1,0 +1,42 @@
+<a
+  routerLink="/anasayfa"
+  pButton
+  class="p-button-text p-button-secondary back-to-home-button"
+  icon="pi pi-arrow-left"
+></a>
+
+<div class="quote-page-container">
+  <div class="quote-card">
+    <h2>Günün Sözü</h2>
+
+    <div class="quote-content-wrapper" *ngIf="quote; else loading">
+      <i class="pi pi-quote-left"></i>
+      <blockquote>{{ quote.content }}</blockquote>
+      <cite>- {{ quote.author }}</cite>
+    </div>
+
+    <!-- Veri yüklenirken gösterilecek alan -->
+    <ng-template #loading>
+      <p>Yeni bir söz yükleniyor...</p>
+    </ng-template>
+
+    <div class="button-group">
+      <button
+        pButton
+        type="button"
+        label="Yeni Söz Getir"
+        icon="pi pi-refresh"
+        (click)="getNewQuote()"
+      ></button>
+      <!-- Twitter paylaş butonu, sadece söz yüklendiğinde görünür -->
+      <a
+        *ngIf="quote"
+        [href]="quote.twitterShareUrl"
+        target="_blank"
+        pButton
+        class="p-button-info"
+        icon="pi pi-twitter"
+      ></a>
+    </div>
+  </div>
+</div>
